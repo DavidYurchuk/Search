@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+a:hover{
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.main-advance-search-google-logo{
+    width: 85px
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+ul > a, ul > img {
+    padding: 0 8px;
+
+}
+.header-img:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.apps-icon{
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+}
+.my-photo{
+    width: 34px;
+    border-radius: 50%;
+    padding: 4px;
+}
+.search-wrapper{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vh;
+}
+form{
+    position: relative;
+}
+input{
+    width: 495px;
+    height: 45px;
+    padding-left: 50px;
+    padding-right: 135px;
+    margin-top: 30px;
+    font-size: 1.1rem;
+    border-radius: 45px;
+    border: 1px solid #d3d3d3;
+}
+input:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px 0 rgb(199, 197, 197);
+}
+.search{
+    width: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: absolute;
+    top: 47px;
+    left: 15px;
+}
+.mic{
+    width: 18px;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: absolute;
+    top: 40px;
+    left: 640px;
+}
+.mic-images{
+    width: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: absolute;
+    top: 42px;
+    left: 555px;
+}
+.camera-search-icon{
+    width: 30px;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: absolute;
+    top: 38px;
+    left: 595px;
+}
+.search-images{
+    border: none;
+    width: 32px;
+    height: 32px;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: absolute;
+    top: 8px;
+    left: 635px;
+}
+.buttons{
+   width: 350px;
+   margin: auto;
+   margin-top: 32px;
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+
+}
+button{
+    font-size: 15px;
+    border: 1px solid transparent;
+    padding: 8px 16px;
+    margin: 11px 4px;
+    border-radius: 6px;
+    background-color: rgb(248, 249, 250);
+}
+button:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-color: #d3d3d3;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background-color: #f2f2f2;
+    overflow:hidden;
+}
+.panel{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.leaf{
+    width: 12px;
+}
+
+.left-links > li{
+    display: inline-block;
+}
+.right-links > li{
+    display: inline-block;
+}
+.right-links{
+    padding-right: 10px;
+    margin: 10px;
+}
+.left-links{
+    padding-left: 10px;
+    margin: 10px;
+}
+.carbon{
+    padding-right: 50px;
+}
+span{
+    position: fixed;
+    color: rgb(66, 133, 244);
+    left: auto;
+    top: auto;
+    font-size: 16px;
+    margin-top: 74px;
+    margin-left: 210px;
+}

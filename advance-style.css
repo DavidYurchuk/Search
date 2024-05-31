@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    height: 100vh;
+    overflow: scroll;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    display: block;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #70757a;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+#google-search-header{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+#google-search-header:hover{
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.main-advance-search-google-logo{
+    width: 85px
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.header-img:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.apps-icon{
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+}
+.my-photo{
+    width: 34px;
+    border-radius: 50%;
+    padding: 4px;
+}
+form{
+    position: relative;
+}
+input{
+    width: 500px;
+    height: 25px;
+    padding: 1px 8px;
+    margin-top: 30px;
+    font-size: 1.1rem;
+    border: 1px solid rgb(217, 217, 217);
+}
+input:focus{
+   outline: 1px solid blueviolet;
+}
+.submit-button{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(77, 144, 254);
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 7px 12px;
+    margin: 30px 0% 0% 73%;
+    /*margin: 5% 10px 10px 450px;*/
+    border: none;
+}
+.submit-button:hover{
+   background-color: rgb(48, 121, 237);
+}
+.submit-button:focus{
+    box-shadow: inset 0 0 0 1px #fff;
+    border: 1px solid blueviolet;
+ }
+footer{
+    width: 100%;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+.panel{
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.left-links > li{
+    display: inline-block;
+}
+.left-links{
+    padding-left: 10px;
+    margin: 10px;
+}
+.advance-header{
+    display: block;
+    margin: 25px 35px;
+}
+.advance-header-text{
+    color: rgb(217, 48, 37);
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.advance-header-underline{
+    display: flex;
+    flex-direction: row;
+    height:0px;
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+}
+table{
+    text-align: left;
+    display:inline-block;
+    max-width: 1250px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px
+}
+input{
+    font-size: 14px;
+    margin: 8px;
+    width: 90%
+}
+.table-column1{
+    max-height:43px;
+    min-width: 150px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 43px;
+    width: 230px
+}
+.table-column2{
+    min-width: 500px;
+    height: 43px;
+    width: 620px
+}
+.table-column3{
+    min-width: 100%;
+    color: rgb(85, 85, 85);
+    font-size: 12px;
+    height: 43px;
+    width: 400px
+}
+.table-column3 > h4{
+    font-size: 15px;
+}
+.table-column1 > h4{
+    font-size: 16px;
+    font-weight: normal;
+}
+span{
+    font-family: monospace;
+}
+@media (max-width: 1083px){
+    .table-column3{
+        display: none;
+    }
+}
